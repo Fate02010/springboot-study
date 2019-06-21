@@ -1,0 +1,15 @@
+.DS_Store
+*.class
+
+#  忽略所有上传包 #
+*.jar
+*.war
+*.ear
+
+#  忽略 IDE 的文件 #
+target/
+.project
+.settings/
+.classpath
+.log
+*/target
