@@ -1,0 +1,30 @@
+server:
+  port: 18080
+spring:
+  application:
+    name: mybatis-server
+  datasource:
+    default:
+      url: jdbc:mysql://localhost:3306/test-jndi-db?useUnicode=true&amp;characterEncoding=UTF-8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+    master: 
+      url: jdbc:mysql://localhost:3306/kamfu-admin?useUnicode=true&amp;characterEncoding=UTF-8
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+    
+#    max-active: 20
+#    initial-size: 1
+#    min-idle: 3
+#    max-wait: 60000
+#    time-between-eviction-runs-millis: 60000
+#    min-evictable-idle-time-millis: 300000
+#    test-while-idle: true
+#    test-on-borrow: false
+#    test-on-return: false
+#    poolPreparedStatements: true
+
+#debug: true
