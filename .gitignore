@@ -13,3 +13,4 @@ target/
 .classpath
 .log
 */target
+/.metadata/
