@@ -1,0 +1,10 @@
+server:
+  port: 18080
+
+mqtt:
+  url: tcp://127.0.0.1:1883
+  producer-client-id: mqttProducer
+  producer-default-topic: test123
+  consumer-client-id: mqttConsumer
+  consumer-default-topic: test123
+
