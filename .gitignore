@@ -5,6 +5,7 @@
 *.jar
 *.war
 *.ear
+*.class
 
 #  忽略 IDE 的文件 #
 target/
@@ -14,3 +15,9 @@ target/
 .log
 */target
 /.metadata/
+package-info.java
+mvnw
+mvnw.cmd
+maven-wrapper.properties
+MavenWrapperDownloader.java
+maven-wrapper.jar
